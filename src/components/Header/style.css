@@ -1,11 +1,16 @@
 
 .header {
   display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.header > div {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color: #fff;
 }
 
 .header input {
@@ -14,4 +19,11 @@
   border-radius: 8px;
   text-align: center;
   width: 36vw;
+}
+
+.link {
+  font-size: 18pt;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
 }

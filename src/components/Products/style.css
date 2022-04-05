@@ -1,0 +1,18 @@
+.products > div{
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 8px;
+  gap: 8px;
+}
+
+.products > div h3 {
+
+}
+
+.products > div button {
+  width: 50px;
+  height: 40px;
+}
